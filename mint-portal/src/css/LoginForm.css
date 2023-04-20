@@ -1,0 +1,87 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+  width: 100%;
+  max-width: 800px;
+  border: 1px solid white;
+  background-color: rgb(252, 252, 252);
+  margin-top: 10rem;
+}
+
+.login-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.form-input {
+  border: 1px solid white;
+  padding: 10px;
+  margin: 5px 0;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rgb(22, 21, 21);
+}
+
+.text-part {
+  flex: 1;
+  text-align: left;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .login-container {
+    flex-wrap: wrap;
+  }
+
+  .login-form {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+button {
+  border: 1px solid white;
+  padding: 10px;
+  margin: 5px 0;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rgb(31, 17, 85);
+}
+
+button:hover {
+  background-color: rgba(17, 10, 160, 0.427);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin-top: 10px;
+  
+}
+
+@media only screen and (max-width: 768px) {
+  .login-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .text-part {
+    order: -1; /* Put the text part before the form in the HTML order */
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+p {
+  text-align: justify;
+}

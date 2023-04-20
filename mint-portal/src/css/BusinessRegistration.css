@@ -1,0 +1,110 @@
+.registration-container {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+    width: 100%;
+    max-width: 600px; /* adjust this value as needed */
+    padding: 20px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: rgb(253, 252, 252);
+    box-sizing: border-box;
+    margin-top: 10rem;
+  }
+
+   
+  .registration-title {
+    margin-top: 0;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group label:before {
+    content: "*";
+    color: red;
+    margin-right: 5px;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="password"],
+  .form-group input[type="tel"] {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: rgb(250, 248, 248);
+    box-sizing: border-box;
+  }
+  
+  .register-button {
+    background-color: rgb(32, 5, 130);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .register-button:hover {
+    background-color: rgb(122, 160, 124);
+  }
+  
+  
+  .captcha-label {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+
+  .captcha-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .captcha-container input {
+    margin-right: 10px;
+    flex-basis: 50%;
+  }
+  
+  .captcha-container img {
+    margin-left: 10px;
+  }
+  
+  
+  
+
+  .login-button {
+    background-color: rgb(22, 21, 21);
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+
+
+  
+    
+
+    
+    
+    
+    
+  
+
+  
+  
